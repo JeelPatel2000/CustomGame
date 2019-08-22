@@ -573,4 +573,9 @@ def add_score
 	puts "Total Score: " + this.score
 end
 
+def increase_score
+	#this function is used to increase the score
+	this.score = this.score + 1
+end 
+
 Game.new(3).show
