@@ -568,4 +568,9 @@ class Game < Gosu::Window
     def needs_cursor?; true end
 end
 
+def add_score 
+	#this function is used to display score 
+	puts "Total Score: " + this.score
+end
+
 Game.new(3).show
